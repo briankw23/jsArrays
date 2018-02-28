@@ -1,18 +1,32 @@
 console.log("Testlkenfoerbk;sgnioerwngion")
 
-var a = [1, 2, 3];
-var b = a.join(' ');
+//*var a = [1, 2, 3];
+//var b = a.join(' ');
 
-var test1 = "cat";
-var test2 = "racecar";
-var test3 = "bear";
-var test4 = "mom";
+//var test1 = "cat";
+//var test2 = "racecar";
+//var test3 = "bear";
+//var test4 = "mom";
 
-var opp = test1.split('').reverse().join('');
+//var opp = test1.split('').reverse().join('');
 
-if (test1 === opp){
-    console.log(true);
-} else{
-    console.log(false);
+//if (test1 === opp){
+ //   console.log(true);
+//} else{
+ //   console.log(false);
+//}
+
+var book = "catch 22";
+var bookSplit = book.split("");
+var realNum = [];
+for(var j=0; j<bookSplit.length; j++){
+    console.log("bookSplit" bookSplit);
+    if((bookSplit[j]*1) == true){
+        console.log()
+    }
 }
+
+
+
+
 
